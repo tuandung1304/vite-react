@@ -2,8 +2,11 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div className="h-[100vh] w-[100vw] bg-slate-700">
-      <h1 className="text-center text-white">Home</h1>
+    <div className="h-[200vh]">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque est
+      perspiciatis ullam perferendis quae quia ab at, officia soluta neque!
+      Voluptates, inventore! Beatae rem totam tempora maiores voluptatum vero
+      illum?
     </div>
   )
 }
