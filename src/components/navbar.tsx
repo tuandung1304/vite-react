@@ -1,4 +1,4 @@
-import logo from '@/../public/logo.svg'
+import logo from '@/assets/logo.svg'
 import NavbarButton from '@/components/buttons/navbar-button'
 import { ModeToggle } from '@/components/mode-toggle'
 
