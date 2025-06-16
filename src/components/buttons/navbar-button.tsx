@@ -7,13 +7,10 @@ export default function NavbarButton({
   ...props
 }: React.ComponentProps<typeof Button> & { to: string }) {
   return (
-    <Button
-      className="dark:hover:bg-[#7a848ea5]"
-      size="sm"
-      variant="ghost"
-      {...props}
-    >
-      <Link to={props.to}>{children}</Link>
-    </Button>
+    <Link to={props.to}>
+      <Button size="sm" variant="ghost" {...props}>
+        {children}
+      </Button>
+    </Link>
   )
 }
